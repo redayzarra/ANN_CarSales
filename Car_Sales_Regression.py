@@ -33,5 +33,13 @@ car_data.head() # The .head() method is used to show the first five rows of the 
 
 
 """
+Visualizing the dataset Using Seaborn to create plots for us to understand the 
+dataset.
+"""
+sns.pairplot(car_data, height = 5, aspect = 1)
+plt.show()
 
+
+"""
+Cleaning the training and testing data by removing variables that we don't need
 """
