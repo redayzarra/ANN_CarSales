@@ -41,5 +41,7 @@ plt.show()
 
 
 """
-Cleaning the training and testing data by removing variables that we don't need
+Cleaning the training and testing data by removing variables that we don't need.
+This reduces unnecessary data that our model can't use, and allows for higher
+accuracy.
 """
